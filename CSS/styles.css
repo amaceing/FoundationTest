@@ -1,0 +1,49 @@
+body, html {
+	font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+	color: white;
+}
+
+.navbar {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.top-bar {
+	padding-bottom: 10px;
+	height: 100%;
+}
+
+.title-area {
+	height: 100%;
+	vertical-align: middle;
+	padding-top: 22px;
+}
+
+.name {
+	padding-left: 0px;
+}
+
+.name h1  a {
+	font-size: 40px;
+	color: white;
+}
+
+@media only screen and (max-width: 40em) {
+	.name {
+		float: middle !important;
+	}
+
+	.title-area h1 a {
+		font-size: 40px;
+	}
+
+}
+
+.about {
+	width: 100%
+	background-color: #F6F6F6;
+}
