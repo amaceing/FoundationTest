@@ -2,8 +2,12 @@ body, html {
 	font-family: 'Lato', sans-serif;
 }
 
+.center {
+	width: 100%;
+	margin:0 auto !important;
+}
+
 .top-bar {
-	margin: 0px 0px 0px 20px !important;
 	height: 100% !important;
 }
 
@@ -17,15 +21,12 @@ body, html {
 }
 
 .name h1 {
+	text-align: center;
 	font-size: 50px !important;
 	color: #F2F2F2 !important;
 }
 
 @media only screen and (max-width: 40em) {
-	.top-bar {
-		margin: 0px 0px 0px 95px !important;
-	}
-
 	.name li {
 		text-align: center !important;
 	}
@@ -36,7 +37,7 @@ body, html {
 }
 
 .about {
-	height: 300px;
+	height: 500px;
 	text-align: center;
 	background-color: #F2F2F2;
 	width: 100%;
